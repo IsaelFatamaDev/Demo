@@ -1,4 +1,4 @@
-
+ESTOS SON LOS COMANDOS
   Id     Duration CommandLine
   --     -------- -----------
    1        1.614 git clone https://github.com/IsaelFatamaDev/DEMOv2.git
@@ -19,7 +19,7 @@
   16        0.077 git status
   17        0.074 git add .
   18        0.115 git commit -m "fix"
-  19        2.366 git push 
+  19        2.366 git push
   20        0.049 clear
   21       20.668 git flow init
   22        0.143 git branch
@@ -39,4 +39,3 @@
   36        1.831 git push -u origin develop
   37        3.095 git flow feature start sp8_us1-nameFunction1
   38        5.610 git flow publish sp8_us1-nameFunction1
-
