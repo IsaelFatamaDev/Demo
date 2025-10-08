@@ -1,0 +1,41 @@
+ESTOS SON LOS COMANDOS
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        1.614 git clone https://github.com/IsaelFatamaDev/DEMOv2.git
+   2        0.017 cd .\DEMOv2\
+   3       12.876 git flow init
+   4        0.191 git branch -a
+   5        2.250 git push -u origin develop
+   6        0.018 cd ..
+   7        0.839 git clone https://github.com/IsaelFatamaDev/demo3.git
+   8        0.017 cd .\Demo3
+   9        0.664 git fetch --all
+  10        0.102 git branch -a
+  11        1.352 code .
+  12        0.001 cd ..
+  13        0.033 cd .\Demo
+  14        0.270 ls
+  15        4.594 git flow init
+  16        0.077 git status
+  17        0.074 git add .
+  18        0.115 git commit -m "fix"
+  19        2.366 git push
+  20        0.049 clear
+  21       20.668 git flow init
+  22        0.143 git branch
+  23        0.026 ls
+  24        0.001 cd ..
+  25        0.004 clear
+  26        0.034 cd .\OneDrive\Escritorio\
+  27        0.068 mkdir demos
+  28        0.028 cd .\demos\
+  29        1.623 git clone https://github.com/IsaelFatamaDev/Demo.git
+  30        0.009 ls
+  31        0.024 cd .\Demo\
+  32        0.002 clear
+  33        0.111 git branch
+  34       29.706 git flow init
+  35        0.125 git branch
+  36        1.831 git push -u origin develop
+  37        3.095 git flow feature start sp8_us1-nameFunction1
+  38        5.610 git flow publish sp8_us1-nameFunction1
