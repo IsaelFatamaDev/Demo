@@ -1,41 +1,174 @@
-ESTOS SON LOS COMANDOS
-  Id     Duration CommandLine
-  --     -------- -----------
-   1        1.614 git clone https://github.com/IsaelFatamaDev/DEMOv2.git
-   2        0.017 cd .\DEMOv2\
-   3       12.876 git flow init
-   4        0.191 git branch -a
-   5        2.250 git push -u origin develop
-   6        0.018 cd ..
-   7        0.839 git clone https://github.com/IsaelFatamaDev/demo3.git
-   8        0.017 cd .\Demo3
-   9        0.664 git fetch --all
-  10        0.102 git branch -a
-  11        1.352 code .
-  12        0.001 cd ..
-  13        0.033 cd .\Demo
-  14        0.270 ls
-  15        4.594 git flow init
-  16        0.077 git status
-  17        0.074 git add .
-  18        0.115 git commit -m "fix"
-  19        2.366 git push
-  20        0.049 clear
-  21       20.668 git flow init
-  22        0.143 git branch
-  23        0.026 ls
-  24        0.001 cd ..
-  25        0.004 clear
-  26        0.034 cd .\OneDrive\Escritorio\
-  27        0.068 mkdir demos
-  28        0.028 cd .\demos\
-  29        1.623 git clone https://github.com/IsaelFatamaDev/Demo.git
-  30        0.009 ls
-  31        0.024 cd .\Demo\
-  32        0.002 clear
-  33        0.111 git branch
-  34       29.706 git flow init
-  35        0.125 git branch
-  36        1.831 git push -u origin develop
-  37        3.095 git flow feature start sp8_us1-nameFunction1
-  38        5.610 git flow publish sp8_us1-nameFunction1
+    1  clear
+    2  sudo apt install unzip -y\nmkdir -p ~/.local/share/fonts\nunzip FiraCode.zip -d ~/.local/share/fonts
+    3  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    4  git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    5  nano ~/.zshrc
+    6  clear
+    7  git pull
+    8  clear
+    9  p10k configure
+   10  clear
+   11  pwd
+   12  ls
+   13  cd Escritorio
+   14  mkdir Prs_6to
+   15  git clone https://gitlab.com/vallegrande/as231s5_prs1/vg-sistemajass-web.git
+   16  sudo apt-get install dconf-cli\n
+   17  git clone https://github.com/dracula/gnome-terminal\ncd gnome-terminal\n
+   18  ./install.sh\n
+   19  cd Escritorio
+   20  ls
+   21  cd gnome-terminal
+   22  ls
+   23  ./install.sh
+   24  sudo apt install plank
+   25  planl
+   26  plank
+   27  dconf reset -f /net/launchpad/plank/
+   28  git switch develop
+   29  clear
+   30  cd Escritorio/Prs_6to
+   31  git clone https://gitlab.com/vallegrande/as231s5_prs1/vg-ms-users-authentication.git
+   32  ls -al ~/.ssh
+   33  ssh-keygen -t ed25519 -C "isael.fatama@vallegrande.edu.pe"
+   34  \tgit config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+   35  git-credential-manager configure\ngit config --global credential.helper gcm
+   36  it config --global credential.helper gcm
+   37  git config --global credential.helper gcm
+   38  git clone https://gitlab.com/vallegrande/as231s5_prs1/vg-ms-users-authentication.git
+   39  cat ~/.ssh/id_ed25519.pub
+   40  git clone git@gitlab.com:vallegrande/as231s5_prs1/vg-ms-gateway.git
+   41  cd vg-ms-gateway
+   42  git switch develop
+   43  cd ..
+   44  git clone git@gitlab.com:vallegrande/as231s5_prs1/vg-ms-gateway.git
+   45  git clone git@gitlab.com:vallegrande/as231s5_prs1/vg-ms-organizations.git
+   46  cd vg-ms-organizations
+   47  git switch develop
+   48  sudo apt install apt-transport-https ca-certificates curl gnupg
+   49  cd
+   50  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg\n
+   51  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu noble stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null\n
+   52  sudo apt update\n
+   53  sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n
+   54  sudo systemctl is-active docker\n
+   55  docker ps
+   56  sudo usermod -aG docker ${USER}\n
+   57  newgrp docker\n
+   58  docker ps
+   59  docker compose 
+   60  docker compose version
+   61  curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64\n
+   62  sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64\n
+   63  minikube start
+   64  docker ps
+   65  sudo add-apt-repository ppa:oguzhaninan/stacer\n
+   66  sudo apt install spotify
+   67  curl -sS https://download.spotify.com/debian/pubkey_C85668DF69375001.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg\n
+   68  echo "deb https://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list\n
+   69  sudo apt-get update && sudo apt-get install spotify-client\n
+   70  mkdir Dokploy
+   71  cd Dokploy
+   72  curl -sSL https://dokploy.com/install.sh | sh
+   73  sudo curl -sSL https://dokploy.com/install.sh | sh
+   74  curl -sSL https://dokploy.com/install.sh | sudo sh
+   75  docker ps
+   76  ls
+   77  docker stats
+   78  git switch develop
+   79  docker ps
+   80  clear
+   81  rm src/main/java/pe/edu/vallegrande/vgmsusers/application/service/PasswordService.java
+   82  rm src/main/java/pe/edu/vallegrande/vgmsusers/application/service/impl/PasswordServiceImpl.java
+   83  mvn spring-boot:run
+   84  git config --global user.name "IsaelFatamaDev"
+   85  git config --global user.email isael.fatama@vallegrande.edu.pe
+   86  sudo apt install maven
+   87  mvn spring-boot:run
+   88  sudo systemctl is-deactive docker
+   89  sudo systemctl stop docker
+   90  docker ps
+   91  docker stats
+   92  docker ps
+   93  docker stop $(docker ps -q)
+   94  docker container prune
+   95  docker rm -f $(docker ps -q)
+   96  docker volume prune
+   97  docker ps
+   98  clear
+   99  docker ps
+  100  docker service ls
+  101  docker service rm dokploy dokploy-postgres dokploy-redis prs01-msusers-ikvqd2
+  102  docker ps
+  103  clear
+  104  restart
+  105  pkill gnome-terminal
+  106  ibus restart
+  107  pkill ibus-daemon
+  108  ibus-daemon -drx
+  109  clear
+  110  cd Escritorio
+  111  git clone https://github.com/IsaelFatamaDev/vg-ms-users.git
+  112  git clone git@github.com:IsaelFatamaDev/vg-ms-users.git
+  113  ls -al ~/.ssh\n
+  114  cat ~/.ssh/id_ed25519.pub\n
+  115  ssh -T git@github.com\n
+  116  git clone git@github.com:IsaelFatamaDev/vg-ms-users.git
+  117  ./mvnw clean verify
+  118  ./mvnw clean install
+  119  clear
+  120  docker pull ronaldinhoccencho/vg-ms-organizations:latest
+  121  docker run -p 8081:8081 -d --name ms-organizations ronaldinhoccencho/vg-ms-organizations:latest
+  122  docker ps
+  123  docker stats
+  124  docker ps
+  125  docker stop $(docker ps -q)
+  126  docker rm fab
+  127  docker ps
+  128  docker ps -a
+  129  mkdir composes
+  130  cd composes
+  131  code .
+  132  docker images
+  133  docker-compose up -d
+  134  docker compose up -d
+  135  docker status
+  136  docker ps
+  137  docker logs 81b
+  138  docker logs -f 81b
+  139  docker ps
+  140  git clone 
+  141  git clone git@github.com:vallegrande/ase252s2_t00_labGitFlow.git
+  142  cd ase252s2_t00_labGitFlow
+  143  git logs
+  144  git log
+  145  git switch develop
+  146  git log
+  147  git log --graph --oneline --decorate --all
+  148  git config --global alias.tree "log --graph --oneline --decorate --all"
+  149  clear
+  150  git tree
+  151  code .
+  152  cd ..
+  153  git clone https://github.com/vallegrande/ASE251S2_T01_wp.git
+  154  git clone git@github.com:vallegrande/ASE251S2_T01_wp.git
+  155  cd ASE251S2_T01_wp
+  156  git switch develop
+  157  git tree
+  158  cd ..
+  159  cd ase252s2_t00_labGitFlow
+  160  git tree
+  161  cd ..
+  162  cd ase252s2_t00_labGitFlow
+  163  cd ..
+  164  cd ASE251S2_T01_wp
+  165  git tree
+  166  code .
+  167  cd ..
+  168  git clone git@github.com:IsaelFatamaDev/Demo.git
+  169  cd Demo
+  170  git switch develop
+  171  git flow init
+  172  sudo apt update && sudo apt install git-flow
+  173  git flow init
+  174  git flow feature start sp1_demo
